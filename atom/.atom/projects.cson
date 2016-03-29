@@ -1,0 +1,37 @@
+_dotfiles:
+  title: "_dotfiles"
+  paths: [
+    "/Users/zombie/_dotfiles"
+  ]
+handmakequake_osx:
+  title: "handmakequake_osx"
+  paths: [
+    "/Users/zombie/_code/C/handmakequake_osx"
+  ]
+fish:
+  title: "fish"
+  paths: [
+    "/Users/zombie/.config/fish"
+  ]
+quake:
+  title: "quake"
+  paths: [
+    "/Users/zombie/_code/c/Quake-master"
+    "/Users/zombie/_code/c/SDL2-2.0.4"
+    "/Users/zombie/_code/c/darkplaces"
+  ]
+chipmunk:
+  title: "chipmunk"
+  paths: [
+    "/Users/zombie/_code/c/chipmunk"
+  ]
+_scripts:
+  title: "_scripts"
+  paths: [
+    "/Users/zombie/_scripts"
+  ]
+vial:
+  title: "vial"
+  paths: [
+    "/Users/zombie/_code/c/vial"
+  ]

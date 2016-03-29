@@ -1,0 +1,81 @@
+"*":
+  "autocomplete-clang": {}
+  core:
+    disabledPackages: [
+      "wrap-guide"
+      "metrics"
+      "fonts"
+    ]
+    ignoredNames: [
+      ".git"
+      "*.xcodeproj"
+      ".DS_Store"
+      "*.dSYM"
+      "*.o"
+    ]
+    packagesWithKeymapsDisabled: [
+      "highlight-line"
+    ]
+    themes: [
+      "one-dark-ui"
+      "2-dark-syntax"
+    ]
+  editor:
+    fontFamily: "Input"
+    fontSize: 12
+    invisibles: {}
+    lineHeight: 1.4
+    scrollPastEnd: true
+    showIndentGuide: true
+    softWrap: true
+    tabLength: 4
+    tabType: "soft"
+  "exception-reporting":
+    userId: "e2c72020-cc24-984e-fdad-783c5792add0"
+  fonts:
+    fontFamily: "Profont"
+    preview: "Hello!"
+  hex: {}
+  "highlight-column": {}
+  "highlight-line":
+    underline: "dashed"
+  "highlight-selected":
+    highlightBackground: true
+    ignoreCase: true
+  linter:
+    gutterPosition: "Left"
+    showErrorPanel: false
+    showErrorTabProject: false
+  "linter-clang":
+    clangDefaultCFlags: "-Wall -Wextra -Werror -Wno-missing-braces -Wno-unused-parameter -Wno-missing-field-initializers -std=c11"
+    verboseDebug: true
+  "linter-gcc": {}
+  "markdown-preview-plus": {}
+  "one-dark-ui":
+    fontSize: 11
+  pigments:
+    delayBeforeScan: 100
+    ignoredBufferNames: [
+      "*.c"
+      "*.h"
+    ]
+    markerType: "dot"
+  "spell-check": {}
+  "todo-show":
+    showInTable: [
+      "Type"
+      "Text"
+      "File"
+      "Line"
+    ]
+    sortAscending: false
+    sortBy: "Type"
+  "tree-view":
+    hideIgnoredNames: true
+  welcome:
+    showOnStartup: false
+".c.source":
+  editor:
+    showInvisibles: false
+    softWrap: false
+    softWrapAtPreferredLineLength: false

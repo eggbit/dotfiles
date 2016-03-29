@@ -1,0 +1,29 @@
+[core]
+	excludesfile = /Users/zombie/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path =
+[mergetool "sourcetree"]
+	cmd = /opt/homebrew-cask/Caskroom/sourcetree/2.0.4/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[include]
+    path = .gituserinfo
+[alias]
+    c = commit -a -m
+    s = status -u
+    d = diff
+    l = log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(blue)%h%C(reset) - %C(green)(%ar)%C(reset) %C(white)%s%C(reset) %C(yellow)%d%C(reset)' --all
+    p = push -u origin master
+    ac = !git add . && git commit -a -m
+    pa = !git push --all && git push --tags
+    co = checkout
+    cob = checkout -b
+    rmb = branch -D
+    m = merge --no-ff
+    rmhard = "!f() { git filter-branch -f --index-filter 'git rm --cached --ignore-unmatch $1' --prune-empty --tag-name-filter cat -- --all; }; f"
+[credential]
+	helper = osxkeychain
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
