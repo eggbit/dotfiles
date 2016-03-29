@@ -8,11 +8,6 @@ handmakequake_osx:
   paths: [
     "/Users/zombie/_code/C/handmakequake_osx"
   ]
-fish:
-  title: "fish"
-  paths: [
-    "/Users/zombie/.config/fish"
-  ]
 quake:
   title: "quake"
   paths: [
