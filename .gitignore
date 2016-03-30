@@ -5,6 +5,7 @@ generated_completions
 
 #atom
 .apm
+*.out
 .node-gyp
 blob-store
 compile-cache
