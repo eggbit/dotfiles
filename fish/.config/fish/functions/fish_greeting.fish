@@ -7,8 +7,9 @@ function fish_greeting
     # set -l date (date +"%A, %B %d, %Y")
     # set -l time (date +"%r")
     # set -l name (whoami)
-    set -l ext_ip (dig +short myip.opendns.com @resolver1.opendns.com)
-    set -l int_ip (ipconfig getifaddr en0)
+    set -l ext_ip (wget http://ipecho.net/plain -qO -)
+    set -l int_ip (ifconfig | grep "inet " | grep -v 127.0.0.1 | awk '{print $2}')
+
     set -l date (date "+%A %d %B %Y")
 
     echo $blue$date
