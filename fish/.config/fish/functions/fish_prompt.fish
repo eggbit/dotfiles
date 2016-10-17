@@ -24,11 +24,18 @@ function fish_prompt
     set -l green (set_color green)
     set -l magenta (set_color magenta)
     set -l normal (set_color normal)
+    set -l spacer " "
 
     if test (jobs -l | wc -l) -gt 0
         set arrow "$green⚙ "
     else
         set arrow ""
+    end
+    
+    if test -z $SSH_TTY
+        set ssh ""
+    else
+        set ssh "$green"(echo [(hostname)])
     end
 
     if test $last_status -gt 0
@@ -48,6 +55,6 @@ function fish_prompt
         end
     end
 
-    echo -n -s $arrow $cwd $git_info $normal ' • '
+    echo -n -s $ssh $spacer $arrow $cwd $git_info $normal ' • '
 end
 
