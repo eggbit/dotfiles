@@ -30,3 +30,28 @@ vial:
   paths: [
     "/Users/zombie/_code/c/vial"
   ]
+qtool:
+  title: "Qtool"
+  paths: [
+    "/Users/zombie/_code/c/qtool"
+  ]
+robert_coons:
+  title: "robert_coons"
+  paths: [
+    "/Users/zombie/Sites/Clients/robert_coons"
+  ]
+rusttut:
+  title: "Rust Tut"
+  paths: [
+    "/Users/zombie/_code/rust/rust_tut"
+  ]
+rogue:
+  title: "Rogue"
+  paths: [
+    "/Users/zombie/_code/rogue"
+  ]
+germancanadian:
+  title: "Germancanadian"
+  paths: [
+    "/Users/zombie/Sites/Clients/germancanadian"
+  ]

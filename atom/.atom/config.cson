@@ -1,5 +1,7 @@
 "*":
   "autocomplete-clang": {}
+  "autocomplete-plus":
+    minimumWordLength: 1
   core:
     disabledPackages: [
       "wrap-guide"
@@ -16,18 +18,21 @@
     packagesWithKeymapsDisabled: [
       "highlight-line"
     ]
+    telemetryConsent: "no"
     themes: [
       "one-dark-ui"
       "2-dark-syntax"
     ]
+    useCustomTitleBar: true
   editor:
-    fontFamily: "Input"
+    fontFamily: "ProggyCleanTT"
     fontSize: 12
     invisibles: {}
     lineHeight: 1.4
     scrollPastEnd: true
     showIndentGuide: true
     softWrap: true
+    softWrapAtPreferredLineLength: true
     tabLength: 4
     tabType: "soft"
   "exception-reporting":
