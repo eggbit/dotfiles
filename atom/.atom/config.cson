@@ -21,7 +21,7 @@
       "2-dark-syntax"
     ]
   editor:
-    fontFamily: "Input"
+    fontFamily: "Input Mono"
     fontSize: 12
     invisibles: {}
     lineHeight: 1.4
