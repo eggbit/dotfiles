@@ -21,7 +21,7 @@
 }
 
 // style the background and foreground colors on the atom-text-editor-element itself
-atom-text-editor {
+.platform-darwin atom-text-editor {
     font-size: 14px;
     // font-family: "ProggySquareTT";
     font-family: "ProggyCleanTT";
@@ -34,6 +34,16 @@ atom-text-editor {
     // color: #acacac;
     line-height: 14px;
   // background-color: hsl(180, 24%, 12%);
+}
+
+.platform-linux atom-text-editor {
+    font-size: 10px;
+    font-family: "Monospace";
+    font-weight: 400;
+    -webkit-font-smoothing: subpixel-antialiased;
+    text-rendering: optimizeLegibility;;
+    text-shadow: 0.2px 0.2px 0.2px rgba(0, 0, 0, 0.5);
+    line-height: 14px;
 }
 
 // To style other content in the text editor's shadow DOM, use the ::shadow expression
