@@ -1,7 +1,7 @@
 set -l paths /usr/local/sbin \
-                    /sbin \
-                    /Applications/MAMP/bin/php/php5.6.10/bin \
-                    /Applications/MAMP/Library/bin/
+             /sbin \
+             /Applications/MAMP/bin/php/php5.6.10/bin \
+             /Applications/MAMP/Library/bin/
 
 for e in $paths
     if test -d $e
