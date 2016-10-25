@@ -1,5 +1,6 @@
 [core]
 	excludesfile = /Users/zombie/.gitignore_global
+	editor = nano
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path =
