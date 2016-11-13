@@ -11,7 +11,7 @@ end
 
 alias tearoot="cd ~/sites/clients/tea"
 alias optipng="optipng -o5 -strip all"
-alias ls="ls -lahF"
+alias ls="ls -lahFG"
 
 # if which rbenv > /dev/null
 #     rbenv init - | source
