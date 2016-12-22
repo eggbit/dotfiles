@@ -1,5 +1,7 @@
 ### Environment Variables ###
 set -x EDITOR nano
+set -x CLICOLOR 1
+set -x TERM xterm-256color
 
 ### Paths ###
 set -l paths /usr/local/sbin \
@@ -14,6 +16,8 @@ for e in $paths
 end
 
 ### Aliases ###
-alias tearoot="cd ~/sites/clients/tea"
-alias optipng="optipng -o5 -strip all"
-alias ls="ls -lahFG"
+alias optipng       "optipng -o5 -strip all"
+alias ls            "ls -lahFG"
+alias scripts-edit  "code ~/_scripts"
+alias dots-edit     "code ~/_dotfiles"
+alias bt            "aria2c --file-allocation=none -u 96K --bt-require-crypto=true -d /volumes/universal/downloads/"
