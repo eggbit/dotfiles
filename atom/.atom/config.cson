@@ -1,4 +1,8 @@
 "*":
+  "arduino-upload":
+    arduinoExecutablePath: "/Applications/Arduino.app/Contents/MacOS/Arduino"
+  "atom-oss-license":
+    name: "eggbit"
   "autocomplete-clang": {}
   "autocomplete-plus":
     minimumWordLength: 1
@@ -7,6 +11,12 @@
       "wrap-guide"
       "metrics"
       "fonts"
+      "github"
+      "open-on-github"
+      "pigments"
+      "nim"
+      "emmet"
+      "busy-signal"
     ]
     ignoredNames: [
       ".git"
@@ -14,6 +24,10 @@
       ".DS_Store"
       "*.dSYM"
       "*.o"
+      ".pioenvs"
+      ".piolibdeps"
+      ".clang_complete"
+      ".gcc-flags.json"
     ]
     packagesWithKeymapsDisabled: [
       "highlight-line"
@@ -21,23 +35,26 @@
     telemetryConsent: "no"
     themes: [
       "one-dark-ui"
-      "2-dark-syntax"
+      "base16-tomorrow-dark-theme"
     ]
-    useCustomTitleBar: true
+    titleBar: "custom"
+  docblockr:
+    indentation_spaces: 2
+    spacer_between_sections: "after_description"
   editor:
     fontFamily: "ProggyCleanTT"
-    fontSize: 12
     invisibles: {}
     lineHeight: 1.4
     preferredLineLength: 120
     scrollPastEnd: true
     showIndentGuide: true
-    softWrap: true
     softWrapAtPreferredLineLength: true
     tabLength: 4
     tabType: "soft"
   "exception-reporting":
     userId: "e2c72020-cc24-984e-fdad-783c5792add0"
+  "file-icons":
+    coloured: false
   fonts:
     fontFamily: "Profont"
     preview: "Hello!"
@@ -48,14 +65,17 @@
   "highlight-selected":
     highlightBackground: true
     ignoreCase: true
-  linter:
-    gutterPosition: "Left"
-    showErrorPanel: false
-    showErrorTabProject: false
+  linter: {}
   "linter-clang":
-    clangDefaultCFlags: "-Wall -Wextra -Werror -Wno-missing-braces -Wno-unused-parameter -Wno-missing-field-initializers -std=c11"
-    verboseDebug: true
+    clangDefaultCFlags: "-std=c11 -Wall -Wextra -Werror -Wno-missing-braces -Wno-unused-parameter -Wno-missing-field-initializers"
+    verboseDebug: false
   "linter-gcc": {}
+  "linter-ui-default":
+    panelHeight: 71.5
+    showDecorations: false
+    showPanel: true
+    showProviderName: true
+    useBusySignal: false
   "markdown-preview-plus": {}
   "one-dark-ui":
     fontSize: 11
@@ -65,7 +85,7 @@
       "*.c"
       "*.h"
     ]
-    markerType: "dot"
+    markerType: "gutter"
   "spell-check": {}
   "todo-show":
     showInTable: [
@@ -76,6 +96,8 @@
     ]
     sortAscending: false
     sortBy: "Type"
+  "tool-bar":
+    position: "Left"
   "tree-view":
     hideIgnoredNames: true
   welcome:

@@ -1,57 +1,88 @@
-_dotfiles:
-  title: "_dotfiles"
-  paths: [
-    "/Users/zombie/_dotfiles"
-  ]
-handmakequake_osx:
-  title: "handmakequake_osx"
-  paths: [
-    "/Users/zombie/_code/C/handmakequake_osx"
-  ]
-quake:
-  title: "quake"
-  paths: [
-    "/Users/zombie/_code/c/Quake-master"
-    "/Users/zombie/_code/c/SDL2-2.0.4"
-    "/Users/zombie/_code/c/darkplaces"
-  ]
-chipmunk:
-  title: "chipmunk"
-  paths: [
-    "/Users/zombie/_code/c/chipmunk"
-  ]
-_scripts:
-  title: "_scripts"
-  paths: [
-    "/Users/zombie/_scripts"
-  ]
-vial:
-  title: "vial"
-  paths: [
-    "/Users/zombie/_code/c/vial"
-  ]
-qtool:
-  title: "Qtool"
-  paths: [
-    "/Users/zombie/_code/c/qtool"
-  ]
-robert_coons:
-  title: "robert_coons"
-  paths: [
-    "/Users/zombie/Sites/Clients/robert_coons"
-  ]
-rusttut:
-  title: "Rust Tut"
-  paths: [
-    "/Users/zombie/_code/rust/rust_tut"
-  ]
-rogue:
-  title: "Rogue"
-  paths: [
-    "/Users/zombie/_code/rogue"
-  ]
-germancanadian:
-  title: "Germancanadian"
-  paths: [
-    "/Users/zombie/Sites/Clients/germancanadian"
-  ]
+[
+  {
+    title: "_dotfiles"
+    paths: [
+      "/Users/zombie/_dotfiles"
+    ]
+  }
+  {
+    title: "handmakequake_osx"
+    paths: [
+      "/Users/zombie/_code/C/handmakequake_osx"
+    ]
+  }
+  {
+    title: "quake"
+    paths: [
+      "/Users/zombie/_code/c/Quake-master"
+      "/Users/zombie/_code/c/SDL2-2.0.4"
+      "/Users/zombie/_code/c/darkplaces"
+    ]
+  }
+  {
+    title: "chipmunk"
+    paths: [
+      "/Users/zombie/_code/c/chipmunk"
+    ]
+  }
+  {
+    title: "_scripts"
+    paths: [
+      "/Users/zombie/_scripts"
+    ]
+  }
+  {
+    title: "vial"
+    paths: [
+      "/Users/zombie/_code/c/vial"
+    ]
+  }
+  {
+    title: "Qtool"
+    paths: [
+      "/Users/zombie/_code/c/qtool"
+    ]
+  }
+  {
+    title: "robert_coons"
+    paths: [
+      "/Users/zombie/Sites/Clients/robert_coons"
+    ]
+  }
+  {
+    title: "Rust Tut"
+    paths: [
+      "/Users/zombie/_code/rust/rust_tut"
+    ]
+  }
+  {
+    title: "Rogue"
+    paths: [
+      "/Users/zombie/_code/rogue"
+    ]
+  }
+  {
+    title: "Germancanadian"
+    paths: [
+      "/Users/zombie/Sites/Clients/germancanadian"
+    ]
+  }
+  {
+    title: "Subpixel.Io V2"
+    paths: [
+      "/Users/zombie/Sites/Personal/subpixel.io_v2"
+    ]
+  }
+  {
+    title: "Kaleidoscope"
+    paths: [
+      "/Users/zombie/_code/c/kaleidosCope"
+    ]
+  }
+  {
+    title: "Arduino"
+    paths: [
+      "/Users/zombie/Dropbox/_gdrive/code/arduino"
+    ]
+  }
+]

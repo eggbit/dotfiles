@@ -8,7 +8,8 @@ function fish_greeting
     # set -l time (date +"%r")
     # set -l name (whoami)
     set -l platform (uname)
-    set -l ext_ip (wget http://ipecho.net/plain -qO -)
+    # set -l ext_ip (wget http://ipecho.net/plain -qO -)
+    set -l ext_ip (dig +short myip.opendns.com @resolver1.opendns.com)
 
     if test "$platform" = "Linux"
         set int_ip (ip route get 1.1.1.1 | awk '{print $NF; exit}')

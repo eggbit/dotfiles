@@ -20,20 +20,43 @@
   // background-color: whitesmoke;
 }
 
+.pigments-gutter-marker div span {
+    width: 8px !important;
+    height: 8px !important;
+}
+
+.bracket-matcher .region {
+    // border-bottom: 1px solid #de9536;
+    background-color: #2244ff;
+    // opacity: 0.7;
+}
+
 // style the background and foreground colors on the atom-text-editor-element itself
 .platform-darwin atom-text-editor {
-    font-size: 14px;
-    // font-family: "ProggySquareTT";
-    font-family: "ProggyCleanTT";
     // font-weight: 300;
     -webkit-font-smoothing: subpixel-antialiased;
-    // -webkit-font-smoothing: none;
     text-rendering: optimizeLegibility;;
     // text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.5);
-    // letter-spacing: 0.2px;
     // color: #acacac;
     line-height: 14px;
-  // background-color: hsl(180, 24%, 12%);
+    // background-color: hsl(180, 24%, 12%);
+
+    // AMSTRAD
+    // font-family: "PxPlus AmstradPC1512-2y";
+    // font-size: 11px;
+    // letter-spacing: 1.2px;
+    // -webkit-font-smoothing: none;
+
+    // PROGGY
+    font-family: "ProggySquareTT";
+    font-family: "ProggyCleanTT";
+    font-size: 14.5px;
+
+    // ZX SPECTRUM
+
+    .indent-guide {
+        color: #333;
+    }
 }
 
 .platform-linux atom-text-editor {
